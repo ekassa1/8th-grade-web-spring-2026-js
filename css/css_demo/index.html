@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleora | CSS demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      #red-text {
+        color:red;
+      }  
+      #multi-text {
+        color:blue;
+        text-align: center;
+        font-size:25px;
+
+      }
+
+      .multi-line {
+        color: indigo;
+        font-family: 'Times New Roman', Times, serif;
+      }       
+   
+    </style>
+</head>
+<body>
+
+  <div class="nav-look">
+    <ul class="navigation">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  </div>
+
+   <h1>CSS is the coolest</h1> 
+   <h2>there are three ways to add css to your page</h2>
+   <h3>This is how we use inline CSS</h3>
+   <p style="color:blue">with the style= i can make this text whatever colot i want</p>
+   <p style="text-align: center;"> with style= text align i can make this text in the center </p>
+   <p style="color:darkgoldenrod; text-align: center;">and this text is both by using a ';' in between the command </p>
+
+   <h3>this is how we use INTERNAL styling.</h3>
+   <p id="red-text">i want this text to be red by puting id=red-text in the p tag so then you can make a lot of stuff look the same. # is an id and the thing looks for the # in the style tag above. the id name doesn't really matter the name should be the same as the one in the style tag</p>
+   <p id="multi-text"> (also the id cant have spaces in it) i'm going to make this text blue, centered, and 25 px. dont put it in the same curly brackets as the other texts</p>
+   <p class="multi-line">this is part of a class. each line has the same class and you can use a class as much as you want.</p>
+   <h4 class="multi-line"> so is this. using the class makes it so all the lines with that class will be styled the way the class is</h4>
+   <h2 class="multi-line">and this one too. you use a period to make the code reconize to find the class so its '.*the class name here*' though the lines here may be different sizes since some are headings and others are smaller paragraphs. for element selector you can put something like h2 and all the h2s are the same style. i did it with the background by using body </h2>
+
+   <h2>this is how we use divs.</h2>
+   <div class="copy">
+    <p>this paragraph is part of a div</p>
+    <p> so is this one.</p>
+    <img src="images/cat_drinking_cofeee_with_explosion.jpg" width="250">
+    <p>this caption for the image is also part of the div! what i do to make it look like this is in the style css file in the class copy!</p>
+   </div>
+</body>
+</html>

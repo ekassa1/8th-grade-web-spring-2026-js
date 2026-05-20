@@ -1,0 +1,43 @@
+body {
+        background-color: rgb(222, 240, 246);
+      } 
+
+.navigation {
+    list-style: none;
+    text-align: center;
+}
+
+.nav-look {
+    width: 1000px;
+    margin:0 auto;
+    border: 2px solid rgb(29, 27, 59); 
+    padding: 50px;
+    background-color: rgba(101, 123, 151, 0.788);
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.copy {
+    text-align: center;
+    color:rgb(253, 10, 10);
+    font-size: 25px;
+    background-color: black;
+}
+
+.center-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+}
+
+
+

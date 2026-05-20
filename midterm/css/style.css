@@ -1,0 +1,26 @@
+body {
+        background-color: rgba(15, 7, 77, 0.655);
+      } 
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    display: inline;
+    margin-left: 50px;
+}
+
+.nav-look {
+    width: 1000px;
+    margin:0 auto;
+    border: 2px solid rgb(93, 93, 93); 
+    padding: 30px;
+    background-color: rgba(42, 42, 42, 0.788);
+    
+ 
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+}
+
